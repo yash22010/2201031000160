@@ -1,0 +1,289 @@
+.page-5-child {
+  align-self: stretch;
+  height: 896px;
+  position: relative;
+  background-color: var(--color-gray-100);
+  display: none;
+}
+.move8,
+.safety8,
+.with8 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 356.1px;
+  height: 168.6px;
+}
+.safety8,
+.with8 {
+  top: 135.7px;
+  width: 273.3px;
+}
+.safety8 {
+  top: 271.4px;
+  width: 414px;
+}
+.move-parent5 {
+  align-self: stretch;
+  height: 439.9px;
+  position: relative;
+  display: none;
+  opacity: 0.3;
+}
+.notch-icon8 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0.2px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.left-side-icon8 {
+  height: 23.2px;
+  width: 59.6px;
+  position: relative;
+  z-index: 1;
+}
+.recording-indicator-icon8 {
+  height: 6.6px;
+  width: 6.6px;
+  position: relative;
+  display: none;
+  z-index: 2;
+}
+.battery8,
+.mobile-signal-icon9,
+.wifi-icon8 {
+  height: 11.8px;
+  width: 18.8px;
+  position: relative;
+  z-index: 1;
+}
+.battery8,
+.wifi-icon8 {
+  height: 12.1px;
+  width: 16.9px;
+}
+.battery8 {
+  margin: 0;
+  height: 12.5px;
+  width: 26.9px;
+}
+.mobile-signals-frame1 {
+  height: 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs);
+}
+.iphone-x-or-newer16,
+.iphone-x-or-newer17 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  max-width: 100%;
+}
+.iphone-x-or-newer17 {
+  flex: 1;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-sm) var(--padding-base) var(--padding-6xs)
+    var(--padding-4xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.iphone-x-or-newer16 {
+  align-self: stretch;
+  background-color: var(--color-black);
+  justify-content: center;
+  z-index: 1;
+}
+.vector-line-icon {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: 0;
+  left: 37px;
+  object-fit: contain;
+  cursor: pointer;
+  z-index: 1;
+}
+.sub-frame {
+  align-self: stretch;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+  max-width: 100%;
+}
+.ellipse-shape1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #c4c4c4;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.vsprofile-icon {
+  position: absolute;
+  top: 19px;
+  left: 21px;
+  width: 95.7px;
+  height: 100px;
+  overflow: hidden;
+  z-index: 2;
+}
+.profile-picture-frame {
+  height: 138px;
+  flex: 1;
+  position: relative;
+}
+.child-frame1,
+.parent-frame2 {
+  display: flex;
+  flex-direction: row;
+}
+.child-frame1 {
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+.parent-frame2 {
+  width: 141px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.by-tapping-the {
+  align-self: stretch;
+  position: relative;
+  z-index: 1;
+}
+.checkbox-frame,
+.sub-frame1 {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.checkbox-frame {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-46xl);
+}
+.sub-frame1 {
+  width: 384px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-lgi) var(--padding-4xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--color-aliceblue);
+  font-family: var(--font-roboto);
+}
+.privacy-policy,
+.terms-conditions {
+  color: var(--color-mediumslateblue);
+}
+.check-the-box-container {
+  align-self: stretch;
+  height: 97px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.agreement-checkbox-child {
+  height: 58px;
+  width: 341px;
+  position: relative;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: none;
+  max-width: 100%;
+}
+.next3 {
+  position: relative;
+  font-size: var(--font-size-2xl-6);
+  font-family: var(--font-roboto);
+  color: var(--color-aliceblue);
+  text-align: left;
+  z-index: 2;
+}
+.agreement-checkbox {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) 155px var(--padding-mid) 140px;
+  background-color: var(--color-black);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  z-index: 1;
+}
+.agreement-checkbox:hover {
+  background-color: #333;
+}
+.page-5,
+.sub-frame2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  text-align: left;
+  font-family: var(--font-roboto);
+}
+.sub-frame2 {
+  width: 381px;
+  align-items: flex-start;
+  padding: 0 var(--padding-xl);
+  gap: var(--gap-xl);
+  max-width: 100%;
+  font-size: 15px;
+  color: var(--color-aliceblue);
+}
+.page-5 {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  align-items: center;
+  padding: 0 0 var(--padding-43xl);
+  gap: 122px;
+  letter-spacing: normal;
+  font-size: var(--font-size-124xl-7);
+  color: var(--color-white);
+}
+@media screen and (max-width: 450px) {
+  .checkbox-frame {
+    gap: var(--gap-46xl);
+  }
+  .agreement-checkbox {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./p-a-g-e-6.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-6">
+      <div class="page-6-child"></div>
+      <div class="move-parent2">
+        <b class="move5">Move</b>
+        <b class="with5">with</b>
+        <b class="safety5">Safety</b>
+      </div>
+      <div class="enter-pickup-point">Enter pickup point</div>
+      <section class="text-input">
+        <div class="text-input-child"></div>
+        <header class="iphone-x-or-newer10">
+          <div class="iphone-x-or-newer11">
+            <img class="notch-icon5" alt="" src="./public/notch@2x.png" />
+
+            <img
+              class="left-side-icon5"
+              loading="eager"
+              alt=""
+              src="./public/left-side.svg"
+            />
+
+            <img
+              class="recording-indicator-icon5"
+              alt=""
+              src="./public/recording-indicator.svg"
+            />
+
+            <div class="mobile-signal-group">
+              <img
+                class="mobile-signal-icon5"
+                loading="eager"
+                alt=""
+                src="./public/mobile-signal.svg"
+              />
+
+              <img
+                class="wifi-icon5"
+                loading="eager"
+                alt=""
+                src="./public/wifi.svg"
+              />
+
+              <input class="battery5" type="checkbox" />
+            </div>
+          </div>
+        </header>
+        <div class="auto-location-text-wrapper">
+          <div class="auto-location-text">
+            <h2 class="to-find-your-container">
+              <p class="to-find-your">To find your pickup</p>
+              <p class="location">location</p>
+              <p class="automatically-turn">automatically, turn</p>
+              <p class="on-location-services">on location services</p>
+            </h2>
+            <button class="rectangle-parent3">
+              <div class="frame-child4"></div>
+              <div class="turn-on-location">Turn on location</div>
+            </button>
+          </div>
+        </div>
+        <img
+          class="text-input-item"
+          loading="eager"
+          alt=""
+          src="./public/group-11.svg"
+        />
+      </section>
+      <section class="mask-group">
+        <div class="package-label">
+          <div class="options-container-parent">
+            <div class="options-container">
+              <div class="auto-location-finder">
+                <div class="rectangle-of-location-parent" id="groupContainer">
+                  <img
+                    class="rectangle-of-location"
+                    loading="eager"
+                    alt=""
+                    src="./public/rectangle-4@2x.png"
+                  />
+
+                  <div class="ride">Ride</div>
+                </div>
+                <div class="masking-group">
+                  <img
+                    class="mask-group-icon"
+                    loading="eager"
+                    alt=""
+                    src="./public/mask-group@2x.png"
+                  />
+
+                  <div class="package">Package</div>
+                </div>
+              </div>
+            </div>
+            <input
+              class="around-you-rectangle"
+              type="text"
+              id="aroundYouRectangle"
+            />
+
+            <div class="around-you">Around you</div>
+          </div>
+          <div class="parent-frame-of-icons">
+            <img
+              class="last-child-frame"
+              loading="eager"
+              alt=""
+              src="./public/rectangle-10@2x.png"
+            />
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script>
+      var groupContainer = document.getElementById("groupContainer");
+      if (groupContainer) {
+        groupContainer.addEventListener("click", function (e) {
+          window.location.href = "./p-a-g-e2.html";
+        });
+      }
+      
+      var aroundYouRectangle = document.getElementById("aroundYouRectangle");
+      if (aroundYouRectangle) {
+        aroundYouRectangle.addEventListener("click", function (e) {
+          window.location.href = "./p-a-g-e2.html";
+        });
+      }
+      </script>
+  </body>
+</html>

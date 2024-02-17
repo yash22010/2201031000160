@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-1">
+      <div class="page-1-child"></div>
+      <div class="move-parent">
+        <b class="move">Move</b>
+        <b class="with">with</b>
+        <b class="safety">Safety</b>
+      </div>
+      <section class="iphone-x-or-newer-wrapper">
+        <div class="iphone-x-or-newer">
+          <header class="iphone-x-or-newer1">
+            <img class="notch-icon" alt="" src="./public/notch@2x.png" />
+
+            <img
+              class="left-side-icon"
+              loading="eager"
+              alt=""
+              src="./public/left-side.svg"
+            />
+
+            <img
+              class="recording-indicator-icon"
+              alt=""
+              src="./public/recording-indicator.svg"
+            />
+
+            <div class="wifi-frame">
+              <img
+                class="mobile-signal-icon"
+                loading="eager"
+                alt=""
+                src="./public/mobile-signal.svg"
+              />
+
+              <img
+                class="wifi-icon"
+                loading="eager"
+                alt=""
+                src="./public/wifi.svg"
+              />
+
+              <input class="battery" type="checkbox" />
+            </div>
+          </header>
+        </div>
+      </section>
+      <section class="secondary-group-parent">
+        <div class="secondary-group">
+          <div class="wrapper-group-49-parent">
+            <div class="wrapper-group-49">
+              <img
+                class="wrapper-group-49-child"
+                loading="eager"
+                alt=""
+                src="./public/group-49.svg"
+              />
+            </div>
+            <div class="rectangle-parent">
+              <div class="frame-child"></div>
+              <div class="dyc">DYC</div>
+            </div>
+          </div>
+        </div>
+        <div class="rectangle-group">
+          <div class="frame-item"></div>
+          <div class="move-with-safety">Move with safety</div>
+          <img
+            class="bxbx-check-shield-icon"
+            alt=""
+            src="./public/bxbxcheckshield.svg"
+          />
+        </div>
+      </section>
+      <button class="primary-group-parent">
+        <div class="primary-group" id="primaryGroup"></div>
+        <b class="get-started">Get Started</b>
+        <img class="setting-icon" alt="" src="./public/setting-icon.svg" />
+      </button>
+    </div>
+
+    <script>
+      var primaryGroup = document.getElementById("primaryGroup");
+      if (primaryGroup) {
+        primaryGroup.addEventListener("click", function (e) {
+          window.location.href = "./p-a-g-e1.html";
+        });
+      }
+      </script>
+  </body>
+</html>
